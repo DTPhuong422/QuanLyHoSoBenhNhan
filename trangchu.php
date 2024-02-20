@@ -119,20 +119,20 @@
                     <option value="Khoa Sản">Khoa Sản</option>
                 </select><br>
                 <label for="id_card">Số chứng minh nhân dân:</label><br>
-                <input type="text" id="id_card" name="id_card" require><br>
+                <input type="text" id="id_card" name="id_card" required><br>
                 <label for="name">Họ và tên:</label><br>
-                <input type="text" id="name" name="name" require><br>
+                <input type="text" id="name" name="name" required><br>
                 <label for="dob">Ngày sinh:</label><br>
-                <input type="date" id="dob" name="dob" require><br>
+                <input type="date" id="dob" name="dob" required><br>
                 <label for="gender">Giới tính:</label><br>
                 <select id="gender" name="gender">
                     <option value="male">Nam</option>
                     <option value="female">Nữ</option>
                 </select><br>
                 <label for="address">Địa chỉ:</label><br>
-                <input type="text" id="address" name="address" require><br>
+                <input type="text" id="address" name="address" required><br>
                 <label for="reason">Lý do nhập viện:</label><br>
-                <textarea id="reason" name="reason" require></textarea><br><br>
+                <textarea id="reason" name="reason" required></textarea><br><br>
                 <div class="button-container">
                     <input type="submit" value="Ghi nhận">
                     <input type="reset" value="Hủy">
